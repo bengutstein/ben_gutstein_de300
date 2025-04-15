@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 # Install dependencies
-RUN pip install pandas matplotlib scipy jupyter nbconvert
+RUN pip install -r requirements.txt
 
 # Convert the notebook to HTML when the container runs
 CMD ["jupyter", "nbconvert", "--to", "html", "HomeworkOne.ipynb"]
