@@ -31,5 +31,7 @@ To reproduce the notebook in a clean environment using Docker:
    cd homework_1
 
 
-GAI Usage:
+---
+
+## GAI Usage
 I used ChatGPT to help brainstorm and explain strategies for missing data imputation in task one and it helped me with my Docker setup because I was confused with what you were looking for there.
