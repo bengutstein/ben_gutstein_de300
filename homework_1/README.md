@@ -14,7 +14,7 @@ This notebook explores and analyzes aircraft inventory data from the Bureau of T
 
 File and Description:
 - `HomeworkOne.ipynb`: The main Jupyter Notebook with full analysis and code
-- `HomeworkOne.html`: Exported HTML version of the notebook
+- `HomeworkOne.html`: Exported HTML version of the notebook, I used a collab file I found online to help me convert the original .ipynb
 - `Dockerfile`: Docker config to run and convert the notebook to HTML
 - `requirements.txt`: Python dependencies used in the Docker container
 - `README.md`: This file
