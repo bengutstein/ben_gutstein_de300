@@ -81,5 +81,6 @@ if __name__ == "__main__":
 
     create_github_table(session)
     insert_github_row(session, "Ben Gutstein", "bengutstein")
-
     export_github_to_csv(session)
+
+    session.shutdown()
