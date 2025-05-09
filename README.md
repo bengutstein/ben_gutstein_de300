@@ -1,6 +1,6 @@
-# ICU Length of Stay & Treatment Summary Analysis (DATA_ENG 300 HW2)
+# DATA_ENG 300 HW2
 
-This project performs both relational and non-relational analysis on ICU patient data to answer healthcare questions using SQL (DuckDB) and Cassandra (Amazon Keyspaces). The work is split into two parts.
+This project performs both relational and non-relational analysis on ICU patient data to answer healthcare questions using SQL (DuckDB) and Cassandra (Amazon Keyspaces). The work was split into two parts.
 
 ---
 
