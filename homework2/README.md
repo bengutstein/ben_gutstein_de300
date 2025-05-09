@@ -47,6 +47,7 @@ Reimplements all 3 queries using Keyspaces:
 1. **Docker & Jupyter**
 
    docker build -t my_jupyter
+   
    docker run -p 8888:8888 -v $(pwd):/home/jovyan/ my_jupyter
 
 ### AI Declaration
