@@ -27,7 +27,7 @@ This project performs both relational and non-relational analysis on ICU patient
    - Sorted by frequency, joined with ICD names
 
 3. **ICU Stay Duration by Gender/Ethnicity**  
-   - Calculated stay length using `ADMITTIME` and `DISCHTIME`  
+   - Calculated stay length using times provided by the tables 
    - Grouped by gender or ethnicity  
    - Outputs include sample table and optional plot
 
@@ -48,4 +48,8 @@ Reimplements all 3 queries using Keyspaces:
 
    docker build -t my_jupyter
    docker run -p 8888:8888 -v $(pwd):/home/jovyan/ my_jupyter
+
+### AI Declaration
+I used ChatGPT to help me with part 2 of the homework. It helped debug and brainstorm strategies to get around the limiting factors of Cassandra to answer the questions. I had a lot of trouble with my virtual machine and it helped find answers to some of my questions.
+
 
