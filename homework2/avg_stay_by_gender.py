@@ -12,12 +12,12 @@ def connect_to_cluster():
     ssl_context.load_verify_locations(cert_path)
     ssl_context.verify_mode = CERT_REQUIRED
 
-    boto_session = boto3.Session(region_name="us-east-1")
+    boto_session = boto3.Session(region_name="us-east-2")
     auth_provider = SigV4AuthProvider(boto_session)
 
     exec_profile = ExecutionProfile(consistency_level=ConsistencyLevel.LOCAL_QUORUM)
     cluster = Cluster(
-        ["cassandra.us-east-1.amazonaws.com"],
+        ["cassandra.us-east-2.amazonaws.com"],
         port=9142,
         ssl_context=ssl_context,
         auth_provider=auth_provider,
