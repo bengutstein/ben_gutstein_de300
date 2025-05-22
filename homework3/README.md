@@ -34,7 +34,7 @@ This project contains two main parts:
 
 ---
 
-## 💡 Summary of Work
+## Summary of Work
 
 ### Part 1: TF-IDF with PySpark
 
@@ -49,7 +49,7 @@ This project contains two main parts:
 
 ---
 
-## 🤖 Generative AI Disclosure
+## Generative AI Disclosure
 
 I used ChatGPT to:
 
